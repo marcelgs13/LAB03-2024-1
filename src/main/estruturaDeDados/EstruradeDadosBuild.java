@@ -2,6 +2,6 @@ package estruturaDeDados;
 
 public class EstruradeDadosBuild {
     public static Lista buildLista() {
-        return new ListaMarcel();
+        return new ListaLigada();
     }
 }

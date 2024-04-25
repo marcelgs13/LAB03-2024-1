@@ -1,11 +1,11 @@
 package estruturaDeDados;
 
-public class ListaMarcel implements Lista{
+public class ListaArray implements Lista{
     int tamanho = 0;
     private int[] array;
     private int indice_final;
 
-    public ListaMarcel() {
+    public ListaArray() {
         array = new int[20];
         indice_final = 0;
     }
